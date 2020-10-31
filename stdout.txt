@@ -1,0 +1,8365 @@
+initializing game class
+Eco started on 8180
+new connection attempt: id_1
+next available slot = 0
+new player joined 0 from id id_1
+new connection attempt: id_2
+next available slot = 1
+new player joined 1 from id id_2
+id_1 requests new game for 1 players
+SCORE CARDS: 2,2,0,2,1
+[ 4, 3, 3, 1, -1, 2 ]
+[ 4, 1, 5, 4, 1, 4 ]
+[ 2, 3, 3, 4, 2, 5 ]
+[ 2, 3, 5, 4, 3, 5 ]
+BEGIN >>> TEAM COUNTER: 0. TURN #: 0
+new connection attempt: id_3
+next available slot = 0
+new player joined 0 from id id_3
+new connection attempt: id_4
+next available slot = 1
+new player joined 1 from id id_4
+id_4 requests new game for 2 players
+SCORE CARDS: 1,2,2,1,1
+[ 2, 1, 2, 5, -1, 3 ]
+[ 1, 0, 5, 4, -1, 5 ]
+[ 3, 2, 4, 3, -1, 1 ]
+[ 1, 3, 5, 2, 1, 3 ]
+BEGIN >>> TEAM COUNTER: 0. TURN #: 0
+[1] Picked tile #3 with biome1=2, biome2=3. Potential pips=4,3,-1. Paired with Animal 3
+[1] Placed tile [2:3] @ r1:c0 with rotation 2
+[1] Placed animal 3 @ r1:c0
+end turn
+TEAM COUNTER: 1. TURN #: 0
+4
+tile {
+  biome_1: 2,
+  biome_2: 2,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ 3, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 4, 1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 0,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 2, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 3,
+  player_owner: -1
+}
+[2] Picked tile #2 with biome1=4, biome2=1. Potential pips=4,2,-1. Paired with Animal 2
+[2] Placed tile [4:1] @ r-1:c2 with rotation 3
+[2] Placed animal 2 @ r-1:c2
+end turn
+TEAM COUNTER: 0. TURN #: 1
+4
+tile {
+  biome_1: 2,
+  biome_2: 2,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ 3, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 4, 1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 0,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 2, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 3,
+  player_owner: -1
+}
+new connection attempt: id_5
+next available slot = 0
+new player joined 0 from id id_5
+id_4 requests new game for 3 players
+SCORE CARDS: 0,0,2,2,1
+[ 1, 2, 1, 3, -1, 4 ]
+[ 2, 4, 2, 5, 4, 1 ]
+[ 2, 1, 1, 5, -1, 4 ]
+[ 1, 2, 4, 2, 3, 3 ]
+BEGIN >>> TEAM COUNTER: 0. TURN #: 1
+[1] Picked tile #1 with biome1=2, biome2=4. Potential pips=1,5,-1. Paired with Animal 1
+[1] Placed tile [2:4] @ r-1:c2 with rotation 1
+[1] Placed animal 1 @ r-1:c1
+end turn
+TEAM COUNTER: 1. TURN #: 0
+4
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 5, 4, 2 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #2 with biome1=2, biome2=4. Potential pips=2,5,4. Paired with Animal 1
+[2] Placed tile [2:4] @ r1:c0 with rotation 0
+[2] Placed animal 1 @ r0:c1
+end turn
+TEAM COUNTER: 2. TURN #: 0
+4
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 5, 4, 2 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #1 with biome1=3, biome2=0. Potential pips=5,2,-1. Paired with Animal 5
+[3] Placed tile [3:0] @ r-1:c0 with rotation 0
+[3] Placed animal 5 @ r-1:c0
+end turn
+TEAM COUNTER: 0. TURN #: 1
+4
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 5, 4, 2 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #3 with biome1=2, biome2=1. Potential pips=1,5,-1. Paired with Animal 4
+[1] Placed tile [2:1] @ r0:c2 with rotation 4
+[1] Placed animal 4 @ r0:c0
+[1] Completed keystone tile
+end turn
+TEAM COUNTER: 1. TURN #: 1
+5
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 5, 4, 2 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #1 with biome1=1, biome2=4. Potential pips=5,1,-1. Paired with Animal 3
+[2] Placed tile [1:4] @ r1:c1 with rotation 4
+[2] Placed animal 3 @ r0:c0
+[2] Completed keystone tile
+end turn
+TEAM COUNTER: 2. TURN #: 1
+5
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 5, 4, 2 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #3 with biome1=3, biome2=0. Potential pips=5,2,3. Paired with Animal 4
+[3] Placed tile [3:0] @ r-1:c2 with rotation 0
+[3] Placed animal 4 @ r-1:c1
+end turn
+TEAM COUNTER: 0. TURN #: 2
+5
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 5, 4, 2 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #2 with biome1=1, biome2=3. Potential pips=1,2,3. Paired with Animal 1
+[1] Placed tile [1:3] @ r1:c0 with rotation 5
+[1] Placed animal 1 @ r-1:c2
+end turn
+TEAM COUNTER: 1. TURN #: 2
+6
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 5, 4, 2 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 1, 2, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #4 with biome1=1, biome2=3. Potential pips=2,4,1. Paired with Animal 5
+[2] Placed tile [1:3] @ r0:c2 with rotation 2
+[2] Placed animal 5 @ r1:c0
+end turn
+TEAM COUNTER: 2. TURN #: 2
+6
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 5, 4, 2 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 1, 2, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #3 with biome1=0, biome2=4. Potential pips=2,4,3. Paired with Animal 1
+[3] Placed tile [0:4] @ r-2:c2 with rotation 5
+[3] Placed animal 1 @ r0:c1
+end turn
+TEAM COUNTER: 0. TURN #: 3
+6
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ 5, 4, 2 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 1, 2, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #3 with biome1=1, biome2=0. Potential pips=2,4,-1. Paired with Animal 4
+[1] Placed tile [1:0] @ r1:c2 with rotation 2
+[1] Placed animal 4 @ r0:c1
+end turn
+TEAM COUNTER: 1. TURN #: 3
+7
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 1, 2, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #3 with biome1=2, biome2=1. Potential pips=5,4,-1. Paired with Animal 1
+[2] Placed tile [2:1] @ r-1:c2 with rotation 3
+[2] Placed animal 1 @ r0:c2
+end turn
+TEAM COUNTER: 2. TURN #: 3
+7
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 1, 2, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #4 with biome1=2, biome2=1. Potential pips=4,1,-1. Paired with Animal 1
+[3] Placed tile [2:1] @ r0:c2 with rotation 1
+[3] Placed animal 1 @ r0:c2
+end turn
+TEAM COUNTER: 0. TURN #: 4
+7
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 1, 2, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #2 with biome1=3, biome2=1. Potential pips=4,2,-1. Paired with Animal 1
+[1] Placed tile [3:1] @ r2:c0 with rotation 1
+[1] Placed animal 1 @ r1:c0
+end turn
+TEAM COUNTER: 1. TURN #: 4
+8
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ 4, 2, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #2 with biome1=2, biome2=0. Potential pips=5,3,-1. Paired with Animal 1
+[2] Placed tile [2:0] @ r-2:c2 with rotation 5
+[2] Placed animal 1 @ r1:c1
+end turn
+TEAM COUNTER: 2. TURN #: 4
+8
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ 4, 2, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #4 with biome1=3, biome2=3. Potential pips=2,-1,-1. Paired with Animal 3
+[3] Placed tile [3:3] @ r1:c0 with rotation 0
+[3] Placed animal 3 @ r-2:c2
+end turn
+TEAM COUNTER: 0. TURN #: 5
+8
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ 4, 2, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #2 with biome1=3, biome2=1. Potential pips=5,1,-1. Paired with Animal 1
+[1] Placed tile [3:1] @ r1:c1 with rotation 1
+[1] Placed animal 1 @ r1:c1
+end turn
+TEAM COUNTER: 1. TURN #: 5
+9
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ 4, 2, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[2] Picked tile #2 with biome1=1, biome2=2. Potential pips=2,1,3. Paired with Animal 1
+[2] Placed tile [1:2] @ r-1:c3 with rotation 1
+[2] Placed animal 1 @ r-1:c3
+end turn
+TEAM COUNTER: 2. TURN #: 5
+9
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ 4, 2, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[3] Picked tile #2 with biome1=4, biome2=4. Potential pips=3,-1,-1. Paired with Animal 5
+[3] Placed tile [4:4] @ r-2:c1 with rotation 0
+[3] Placed animal 5 @ r-1:c2
+end turn
+TEAM COUNTER: 0. TURN #: 6
+9
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ 4, 2, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[1] Picked tile #3 with biome1=2, biome2=1. Potential pips=1,4,-1. Paired with Animal 4
+[1] Placed tile [2:1] @ r2:c1 with rotation 4
+[1] Placed animal 4 @ r2:c0
+end turn
+TEAM COUNTER: 1. TURN #: 6
+10
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ 1, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #2 with biome1=0, biome2=2. Potential pips=5,1,-1. Paired with Animal -2
+[2] Placed tile [0:2] @ r-2:c1 with rotation 0
+[2] Sacrificed animal
+end turn
+TEAM COUNTER: 2. TURN #: 6
+10
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ 1, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #4 with biome1=4, biome2=0. Potential pips=1,3,2. Paired with Animal 1
+[3] Placed tile [4:0] @ r-3:c3 with rotation 3
+[3] Placed animal 1 @ r-3:c3
+end turn
+TEAM COUNTER: 0. TURN #: 7
+10
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ 1, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #1 with biome1=1, biome2=3. Potential pips=2,3,1. Paired with Animal 4
+[1] Placed tile [1:3] @ r3:c0 with rotation 5
+[1] Placed animal 4 @ r2:c1
+end turn
+TEAM COUNTER: 1. TURN #: 7
+11
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 2, 3, 1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #2 with biome1=0, biome2=1. Potential pips=2,3,-1. Paired with Animal 2
+[2] Placed tile [0:1] @ r-1:c0 with rotation 5
+[2] Placed animal 2 @ r-1:c1
+end turn
+TEAM COUNTER: 2. TURN #: 7
+11
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 2, 3, 1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #2 with biome1=4, biome2=1. Potential pips=1,4,-1. Paired with Animal 4
+[3] Placed tile [4:1] @ r-4:c3 with rotation 0
+[3] Placed animal 4 @ r0:c0
+[3] Completed keystone tile
+end turn
+TEAM COUNTER: 0. TURN #: 8
+11
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 2, 3, 1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #3 with biome1=3, biome2=4. Potential pips=1,4,-1. Paired with Animal 1
+[1] Placed tile [3:4] @ r3:c-1 with rotation 5
+[1] Placed animal 1 @ r3:c-1
+end turn
+TEAM COUNTER: 1. TURN #: 8
+12
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 2, 3, 1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[2] Picked tile #3 with biome1=1, biome2=0. Potential pips=3,1,-1. Paired with Animal 5
+[2] Placed tile [1:0] @ r-2:c0 with rotation 1
+[2] Placed animal 5 @ r-1:c2
+end turn
+TEAM COUNTER: 2. TURN #: 8
+12
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 2, 3, 1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[3] Picked tile #2 with biome1=3, biome2=4. Potential pips=2,5,-1. Paired with Animal 1
+[3] Placed tile [3:4] @ r0:c-1 with rotation 0
+[3] Placed animal 1 @ r-4:c3
+end turn
+TEAM COUNTER: 0. TURN #: 9
+12
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 2, 3, 1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[1] Picked tile #3 with biome1=3, biome2=4. Potential pips=2,4,-1. Paired with Animal 2
+[1] Placed tile [3:4] @ r2:c-1 with rotation 4
+[1] Placed animal 2 @ r1:c2
+end turn
+TEAM COUNTER: 1. TURN #: 9
+13
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 2, 3, 1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #3 with biome1=2, biome2=1. Potential pips=1,4,2. Paired with Animal 5
+[2] Placed tile [2:1] @ r-1:c-1 with rotation 1
+[2] Placed animal 5 @ r-2:c2
+end turn
+TEAM COUNTER: 2. TURN #: 9
+13
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 2, 3, 1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #1 with biome1=4, biome2=1. Potential pips=3,4,-1. Paired with Animal 5
+[3] Placed tile [4:1] @ r-3:c2 with rotation 5
+[3] Placed animal 5 @ r0:c-1
+end turn
+TEAM COUNTER: 0. TURN #: 10
+13
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ 2, 3, 1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #2 with biome1=4, biome2=4. Potential pips=4,-1,-1. Paired with Animal 1
+[1] Placed tile [4:4] @ r3:c-2 with rotation 0
+[1] Placed animal 1 @ r3:c0
+end turn
+TEAM COUNTER: 1. TURN #: 10
+14
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #4 with biome1=3, biome2=0. Potential pips=3,4,2. Paired with Animal 5
+[2] Placed tile [3:0] @ r-3:c2 with rotation 4
+[2] Placed animal 5 @ r-2:c1
+end turn
+TEAM COUNTER: 2. TURN #: 10
+14
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #1 with biome1=1, biome2=4. Potential pips=5,2,1. Paired with Animal 5
+[3] Placed tile [1:4] @ r-1:c3 with rotation 0
+[3] Placed animal 5 @ r-1:c3
+end turn
+TEAM COUNTER: 0. TURN #: 11
+14
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #3 with biome1=0, biome2=4. Potential pips=4,1,3. Paired with Animal 1
+[1] Placed tile [0:4] @ r2:c-2 with rotation 2
+[1] Placed animal 1 @ r2:c-2
+end turn
+TEAM COUNTER: 1. TURN #: 11
+15
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[2] Picked tile #4 with biome1=3, biome2=0. Potential pips=3,5,-1. Paired with Animal 4
+[2] Placed tile [3:0] @ r-3:c1 with rotation 3
+[2] Placed animal 4 @ r-3:c2
+end turn
+TEAM COUNTER: 2. TURN #: 11
+15
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[3] Picked tile #2 with biome1=2, biome2=4. Potential pips=3,2,-1. Paired with Animal 2
+[3] Placed tile [2:4] @ r-3:c1 with rotation 2
+[3] Placed animal 2 @ r1:c0
+[3] Completed keystone tile
+end turn
+TEAM COUNTER: 0. TURN #: 12
+15
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ 1, 5, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[1] Picked tile #1 with biome1=4, biome2=2. Potential pips=1,3,-1. Paired with Animal 5
+[1] Placed tile [4:2] @ r1:c-1 with rotation 0
+[1] Placed animal 5 @ r0:c2
+end turn
+TEAM COUNTER: 1. TURN #: 12
+16
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #3 with biome1=1, biome2=2. Potential pips=5,3,-1. Paired with Animal 5
+[2] Placed tile [1:2] @ r-2:c3 with rotation 4
+[2] Placed animal 5 @ r-2:c3
+end turn
+TEAM COUNTER: 2. TURN #: 12
+16
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #4 with biome1=2, biome2=3. Potential pips=1,5,4. Paired with Animal 3
+[3] Placed tile [2:3] @ r1:c-1 with rotation 2
+[3] Placed animal 3 @ r-2:c1
+[3] Completed keystone tile
+end turn
+TEAM COUNTER: 0. TURN #: 13
+16
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #2 with biome1=4, biome2=2. Potential pips=1,4,3. Paired with Animal 1
+[1] Placed tile [4:2] @ r3:c-3 with rotation 0
+[1] Placed animal 1 @ r3:c-3
+end turn
+TEAM COUNTER: 1. TURN #: 13
+17
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[2] Picked tile #2 with biome1=2, biome2=1. Potential pips=2,3,-1. Paired with Animal 3
+[2] Placed tile [2:1] @ r-1:c4 with rotation 3
+[2] Placed animal 3 @ r-1:c0
+end turn
+TEAM COUNTER: 2. TURN #: 13
+17
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[3] Picked tile #1 with biome1=3, biome2=1. Potential pips=3,4,-1. Paired with Animal 5
+[3] Placed tile [3:1] @ r1:c1 with rotation 2
+[3] Placed animal 5 @ r1:c-1
+end turn
+TEAM COUNTER: 0. TURN #: 14
+17
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[1] Picked tile #4 with biome1=1, biome2=3. Potential pips=2,1,-1. Paired with Animal 1
+[1] Placed tile [1:3] @ r0:c-1 with rotation 1
+[1] Placed animal 1 @ r0:c-1
+end turn
+TEAM COUNTER: 1. TURN #: 14
+18
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[2] Picked tile #3 with biome1=1, biome2=3. Potential pips=1,5,3. Paired with Animal 4
+[2] Placed tile [1:3] @ r0:c3 with rotation 4
+[2] Placed animal 4 @ r-1:c-1
+end turn
+TEAM COUNTER: 2. TURN #: 14
+18
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[3] Picked tile #4 with biome1=1, biome2=3. Potential pips=4,2,-1. Paired with Animal 2
+[3] Placed tile [1:3] @ r1:c-2 with rotation 2
+[3] Placed animal 2 @ r1:c-2
+end turn
+TEAM COUNTER: 0. TURN #: 15
+18
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+[1] Picked tile #4 with biome1=4, biome2=3. Potential pips=1,2,-1. Paired with Animal 2
+[1] Placed tile [4:3] @ r-1:c0 with rotation 4
+[1] Placed animal 2 @ r-1:c0
+end turn
+TEAM COUNTER: 1. TURN #: 15
+19
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+[2] Picked tile #1 with biome1=1, biome2=0. Potential pips=2,5,-1. Paired with Animal 1
+[2] Placed tile [1:0] @ r-3:c0 with rotation 2
+[2] Placed animal 1 @ r0:c3
+end turn
+TEAM COUNTER: 2. TURN #: 15
+19
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+[3] Picked tile #1 with biome1=2, biome2=3. Potential pips=5,3,4. Paired with Animal 3
+[3] Placed tile [2:3] @ r2:c-1 with rotation 1
+[3] Placed animal 3 @ r-3:c2
+end turn
+TEAM COUNTER: 0. TURN #: 16
+19
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 2, 4, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+[1] Picked tile #2 with biome1=2, biome2=3. Potential pips=5,1,-1. Paired with Animal 4
+[1] Placed tile [2:3] @ r-1:c-1 with rotation 1
+[1] Placed animal 4 @ r2:c-1
+end turn
+TEAM COUNTER: 1. TURN #: 16
+20
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ 5, 1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #4 with biome1=4, biome2=2. Potential pips=3,2,-1. Paired with Animal 2
+[2] Placed tile [4:2] @ r-2:c4 with rotation 4
+[2] Placed animal 2 @ r-2:c4
+end turn
+TEAM COUNTER: 2. TURN #: 16
+20
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ 5, 1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #3 with biome1=1, biome2=1. Potential pips=5,-1,-1. Paired with Animal 3
+[3] Placed tile [1:1] @ r0:c3 with rotation 0
+[3] Placed animal 3 @ r-3:c1
+end turn
+TEAM COUNTER: 0. TURN #: 17
+20
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ 5, 1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #2 with biome1=4, biome2=2. Potential pips=5,1,3. Paired with Animal 1
+[1] Placed tile [4:2] @ r4:c-3 with rotation 5
+[1] Placed animal 1 @ r-1:c-1
+end turn
+TEAM COUNTER: 1. TURN #: 17
+21
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 4,
+  y: -3,
+  rotation: 5,
+  animal_options: [ 5, 1, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #4 with biome1=1, biome2=4. Potential pips=4,1,-1. Paired with Animal 1
+[2] Placed tile [1:4] @ r-2:c-1 with rotation 5
+[2] Placed animal 1 @ r-2:c0
+end turn
+TEAM COUNTER: 2. TURN #: 17
+21
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 4,
+  y: -3,
+  rotation: 5,
+  animal_options: [ 5, 1, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #1 with biome1=4, biome2=3. Potential pips=5,1,-1. Paired with Animal 1
+[3] Placed tile [4:3] @ r2:c0 with rotation 5
+[3] Placed animal 1 @ r2:c0
+end turn
+TEAM COUNTER: 0. TURN #: 18
+21
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ 4, -1, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 4,
+  y: -3,
+  rotation: 5,
+  animal_options: [ 5, 1, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #3 with biome1=3, biome2=2. Potential pips=4,5,3. Paired with Animal 4
+[1] Placed tile [3:2] @ r4:c-1 with rotation 4
+[1] Placed animal 4 @ r3:c-2
+[1] Completed keystone tile
+end turn
+TEAM COUNTER: 1. TURN #: 18
+22
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 4,
+  y: -3,
+  rotation: 5,
+  animal_options: [ 5, 1, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 2,
+  x: 4,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 4, 5, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #4 with biome1=3, biome2=0. Potential pips=5,2,-1. Paired with Animal 2
+[2] Placed tile [3:0] @ r-4:c1 with rotation 5
+[2] Placed animal 2 @ r-3:c0
+end turn
+TEAM COUNTER: 2. TURN #: 18
+22
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 4,
+  y: -3,
+  rotation: 5,
+  animal_options: [ 5, 1, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 2,
+  x: 4,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 4, 5, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #2 with biome1=4, biome2=0. Potential pips=1,3,-1. Paired with Animal 5
+[3] Placed tile [4:0] @ r3:c0 with rotation 2
+[3] Placed animal 5 @ r2:c-1
+end turn
+TEAM COUNTER: 0. TURN #: 19
+22
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 4,
+  y: -3,
+  rotation: 5,
+  animal_options: [ 5, 1, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 2,
+  x: 4,
+  y: -1,
+  rotation: 4,
+  animal_options: [ 4, 5, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[1] Picked tile #2 with biome1=3, biome2=0. Potential pips=5,3,-1. Paired with Animal 4
+[1] Placed tile [3:0] @ r4:c0 with rotation 1
+[1] Placed animal 4 @ r4:c-1
+end turn
+TEAM COUNTER: 1. TURN #: 19
+23
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 4,
+  y: -3,
+  rotation: 5,
+  animal_options: [ 5, 1, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 2,
+  x: 4,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 0,
+  x: 4,
+  y: 0,
+  rotation: 1,
+  animal_options: [ 5, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[2] Picked tile #4 with biome1=1, biome2=3. Potential pips=2,3,-1. Paired with Animal 1
+[2] Placed tile [1:3] @ r1:c2 with rotation 1
+[2] Placed animal 1 @ r-2:c-1
+end turn
+TEAM COUNTER: 2. TURN #: 19
+23
+tile {
+  biome_1: 3,
+  biome_2: 3,
+  x: 0,
+  y: 0,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 2,
+  x: 0,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 1,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 4,
+  x: -1,
+  y: 2,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 0,
+  y: 2,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 5,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 1,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 0,
+  x: 1,
+  y: 2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 2,
+  y: 0,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 1,
+  x: 1,
+  y: 1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 1,
+  x: 2,
+  y: 1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 3,
+  y: 0,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 3,
+  y: -1,
+  rotation: 5,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 4,
+  x: 2,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 4,
+  x: 3,
+  y: -2,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 0,
+  biome_2: 4,
+  x: 2,
+  y: -2,
+  rotation: 2,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 1,
+  y: -1,
+  rotation: 0,
+  animal_options: [ 1, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 3,
+  y: -3,
+  rotation: 0,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 1,
+  biome_2: 3,
+  x: 0,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 3,
+  x: -1,
+  y: 0,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 2,
+  player_owner: -1
+}
+tile {
+  biome_1: 2,
+  biome_2: 3,
+  x: -1,
+  y: -1,
+  rotation: 1,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 1,
+  player_owner: -1
+}
+tile {
+  biome_1: 4,
+  biome_2: 2,
+  x: 4,
+  y: -3,
+  rotation: 5,
+  animal_options: [ 5, 1, 3 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 2,
+  x: 4,
+  y: -1,
+  rotation: 4,
+  animal_options: [ -1, -1, -1 ],
+  animal_occupy: 4,
+  player_owner: -1
+}
+tile {
+  biome_1: 3,
+  biome_2: 0,
+  x: 4,
+  y: 0,
+  rotation: 1,
+  animal_options: [ 5, 3, -1 ],
+  animal_occupy: -1,
+  player_owner: -1
+}
+[3] Picked tile #1 with biome1=3, biome2=2. Potential pips=4,5,-1. Paired with Animal 1
+[3] Placed tile [3:2] @ r2:c-2 with rotation 2
+[3] Placed animal 1 @ r3:c0
+end turn
+--- GAME OVER ---
